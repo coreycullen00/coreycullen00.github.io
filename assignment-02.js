@@ -32,13 +32,13 @@ async function Start(){
 
 			 //Increases the speed for Rounds: 5, 9, 13
 			 if(current+1==5){
-				 multiplier= 1-(1*0.1);//if round 5
+				 multiplier= multiplier*0.7;//if round 5
 			 }
 			 else if(current+1==9){
-				 multiplier= 1-(2*0.1);//if round 9
+				 multiplier= multiplier*0.7;//if round 9
 			 }
 			 else if(current+1==13){
-				 multiplier= 1-(3*0.1);//if round 13
+				 multiplier= multiplier*0.7;//if round 13
 			 }
 
 			// Computer "Blinks" its lights, informing user od series of moves to do.
